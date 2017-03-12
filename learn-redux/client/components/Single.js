@@ -12,7 +12,7 @@ function Single(props) {
         return(
             <div className="single-photo">
                 <Photo index= {index} post={post} {...props} />
-                <Comments postComments={postComments}/>
+                <Comments postComments={postComments} {...props}/>
             </div>
         )
 }
