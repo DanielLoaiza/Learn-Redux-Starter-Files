@@ -4,7 +4,6 @@
 //2. copy of the current state
 
 function posts(state = [], action) {
-    console.log('the state', state)
     switch (action.type) {
         case 'INCREMENT_LIKES':
             const index = action.index;
